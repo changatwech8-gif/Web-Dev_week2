@@ -1,0 +1,81 @@
+h1 { 
+    color: white;
+    background-color: green;
+    padding: 20px; 
+    border-radius: 12px; 
+    text-align: center; 
+}
+
+.add-expense { 
+    color: #263238; 
+    background-color: #dff7f2; 
+    padding: 20px; 
+    border-radius: 12px; 
+    margin-top: 20px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08); 
+}
+
+#your-expenses { 
+    color: #263238; 
+    background-color: #eee8ff; 
+    padding: 20px; 
+    border-radius: 12px; 
+    margin-top: 20px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08); 
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td { 
+    border: 1px solid #000; 
+    padding: 10px; 
+}
+
+thead { 
+    background-color: #243b53; 
+    color: white; 
+}
+
+tr:nth-child(even) { 
+    background-color: #e674e1; 
+}
+img {
+    display: block;
+    margin: 0 auto;
+    width: 80;
+    height: 30;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+tr:hover{
+   background-color: red;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #e674e1;
+}
+button {
+    background-color: aqua;
+}
+h2 {
+   
+    color: #263238;
+    padding: 0%;
+    cursor: pointer;
+}
+.add-expense-btn {
+    color: #e674e1;
+    background-color: #eee8ff;
+    cursor: pointer;
+}
+label {
+    background-color: #243b53;
+    cursor: pointer;
+    color: white;
+}
+label:hover {
+    background-color: #e674e1;
+    color: black;
+}
